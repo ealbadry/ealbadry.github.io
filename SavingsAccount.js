@@ -1,9 +1,9 @@
 
 class SavingsAccount extends Account {
 	
-	constructor(intVariable)
+	constructor(number, intVariable)
 	{
-		super();
+		super(number);
 		this._variable  = intVariable;
 	}
 	
